@@ -13,14 +13,6 @@ body {
   line-height: 1.6;
 }
 
-button {
-  background: var(--surface);
-  color: var(--fg);
-  border: 1px solid var(--border);
-  padding: 0.4rem 0.75rem;
-  border-radius: 6px;
-}
-
 #theme-dropdown {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -45,3 +37,26 @@ body[data-theme="solarized"] {
   --accent: #268bd2;
 }
 
+body[data-theme="light"] {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --surface: #f9f9f9;
+  --border: #dddddd;
+  --accent: #005fcc;
+}
+
+body[data-theme="dark"] {
+  --bg: #121212;
+  --fg: #e6e6e6;
+  --surface: #1e1e1e;
+  --border: #2c2c2c;
+  --accent: #4da3ff;
+}
+
+body[data-theme="quiet"] {
+  --bg: #f7f7f4;
+  --fg: #2a2a2a;
+  --surface: #ffffff;
+  --border: #e1e1dd;
+  --accent: #7a7a7a;
+}

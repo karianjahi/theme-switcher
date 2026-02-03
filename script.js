@@ -14,5 +14,10 @@ themeSwitcherBtn.addEventListener("click", () => {
     themeSwitcherBtn.setAttribute("aria-expanded", String(!expanded));
 });
 
-const buttons = document.querySelectorAll('[role="menuitem"]');
-console.log(buttons);
+const menuItems = document.querySelectorAll('[role="menuitem"]');
+menuItems.forEach((menuItem) => {
+    menuItem.addEventListener("click", () => {
+        document.body.dataset.theme = menuItem.id.replace("theme-", "")        
+    });
+
+});
