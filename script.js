@@ -5,4 +5,14 @@ const themes = [
     {"name": "quiet", "message": " Soft contrast and muted tones for distraction-free reading"},
 ];
 
-console.log(themes);
+const themeSwitcherBtn = document.getElementById("theme-switcher-button");
+const themeDropDown = document.getElementById("theme-dropdown");
+
+themeSwitcherBtn.addEventListener("click", () => {
+    const expanded = themeSwitcherBtn.getAttribute("aria-expanded") === "true";
+    themeDropDown.hidden = expanded;
+    themeSwitcherBtn.setAttribute("aria-expanded", String(!expanded));
+});
+
+const buttons = document.querySelectorAll('[role="menuitem"]');
+console.log(buttons);

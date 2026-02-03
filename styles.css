@@ -1,0 +1,47 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+  --surface: #ffffff;
+  --border: #dddddd;
+  --accent: #0066cc;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+button {
+  background: var(--surface);
+  color: var(--fg);
+  border: 1px solid var(--border);
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+}
+
+#theme-dropdown {
+  background: var(--surface);
+  border: 1px solid var(--border);
+}
+
+[role="menuitem"] {
+    cursor: pointer;
+    list-style: none;
+    padding: 0.2em;
+}
+
+[role="menuitem"]:hover {
+    background-color: #72470f;
+    color: white;
+}
+
+body[data-theme="solarized"] {
+  --bg: #fdf6e3;
+  --fg: #586e75;
+  --surface: #ffffff;
+  --border: #eee8d5;
+  --accent: #268bd2;
+}
+
