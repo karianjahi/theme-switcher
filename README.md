@@ -5,8 +5,12 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-yellow.svg)
 ![Accessibility](https://img.shields.io/badge/Accessibility-ARIA%20Friendly-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Live Demo](https://img.shields.io/badge/Live-Demo-blueviolet.svg)
 
 An **accessible, vanilla JavaScript theme switcher** that allows users to toggle between multiple visual themes while receiving polite, animated feedback via an ARIA live region.
+
+🔗 **Live Demo:**  
+👉 https://karianjahi.github.io/theme-switcher/
 
 This project focuses on **clean state management**, **progressive enhancement**, and **accessibility-first UI design** — no frameworks, no dependencies.
 
@@ -87,10 +91,9 @@ This ensures:
    ```bash
    git clone https://github.com/karianjahi/theme-switcher.git
    ```
-2. Open `index.html` in your browser
+2. Open `index.html` in your browser  
+   **or** visit the live demo on GitHub Pages.
 3. Click **Switch Theme** and explore 🎉
-
-No build step required.
 
 ---
 
