@@ -9,8 +9,8 @@
 
 An **accessible, vanilla JavaScript theme switcher** that allows users to toggle between multiple visual themes while receiving polite, animated feedback via an ARIA live region.
 
-🔗 **Live Demo:**  
-👉 https://karianjahi.github.io/theme-switcher/
+👉🔗 [**Live Demo:**](https://karianjahi.github.io/theme-switcher/)  
+ 
 
 This project focuses on **clean state management**, **progressive enhancement**, and **accessibility-first UI design** — no frameworks, no dependencies.
 
