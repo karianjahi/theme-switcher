@@ -7,7 +7,7 @@ const themes = [
 
 const themeSwitcherBtn = document.getElementById("theme-switcher-button");
 const themeDropDown = document.getElementById("theme-dropdown");
-const messageEl = document.getElementById('status');
+const messageEl = document.querySelector('[aria-live="polite"]');
 themeSwitcherBtn.addEventListener("click", () => {
     const expanded = themeSwitcherBtn.getAttribute("aria-expanded") === "true";
     themeDropDown.hidden = expanded;
